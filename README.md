@@ -2,6 +2,8 @@
 
 This plugin lets you quickly copy the content of inline code blocks with a simple click in reading view.
 
+Inspired by https://github.com/ozavodny/obsidian-copy-inline-code-plugin
+
 ### Why this plugin?
 
 I often store credentials and account details in Obsidian, and copying them requires selecting the text and pressing Ctrl + C—which isn’t as convenient as a single click. So, I created this plugin to make copying effortless!
