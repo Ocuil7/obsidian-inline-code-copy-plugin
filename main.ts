@@ -8,7 +8,7 @@ export default class InlineCodeCopyPlugin extends Plugin {
 				const text = code.textContent;
 				code.addEventListener("click", (e) => {
 					if (text) {
-						e.stopPropagation();
+						// e.stopPropagation();
 						navigator.clipboard.writeText(text);
 						new Notice("Text copied to clipboard!");
 					}
