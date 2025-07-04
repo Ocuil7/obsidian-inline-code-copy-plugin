@@ -18,3 +18,5 @@ I often store credentials and account details in Obsidian, and copying them requ
 ## Manually installing the plugin
 
 - Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+
+\* This plugin is compatible with [Code Styler](https://github.com/mayurankv/Obsidian-Code-Styler) inline prefix by removing any leading `{...}` group. If this behaviour isn't desired, you can safely remove the replace method in `main.js`.

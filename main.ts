@@ -9,7 +9,8 @@ export default class InlineCodeCopyPlugin extends Plugin {
 				code.addEventListener("click", (e) => {
 					if (text) {
 						// e.stopPropagation();
-						navigator.clipboard.writeText(text);
+						const textunprefixed = text.replace(/^\{.+\}\s*/, "");
+						navigator.clipboard.writeText(textunprefixed);
 						new Notice("Text copied to clipboard!");
 					}
 				});
